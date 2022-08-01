@@ -1,0 +1,28 @@
+.login-page {
+    background-image: url('https://images.hdqwalls.com/download/sky-full-of-stars-space-5k-h0-1920x1080.jpg');
+    height: 927px;
+    padding-top: 300px;
+}
+
+.login-box {
+    height: 180px;
+    width: 300px;
+    background-color: rgba(255,255,255, 0.3);
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.login-form {
+    margin: 0 auto;
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.Login-form-btn {
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 60px;
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+}

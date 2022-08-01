@@ -1,0 +1,27 @@
+#logout {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 70px;
+
+}
+
+.addnews-title, .addnews-content, .addnews-image, .addnews-article {
+    width: 700px;
+    margin-left: 30%;
+    
+}
+
+.addnews-form-btn {
+    width: 50px;
+    margin-left: 47%;
+}
+
+.addnews-content {
+    height: 100px;
+}
+
+.addnews-title {
+    height: 50px;
+}
+

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    height: 350px;
+    background-image: url(https://swall.teahub.io/photos/small/260-2607358_outer-space.jpg);
+    box-shadow: -1px -90px 27px -74px rgba(0,0,0,1) inset, -1px 199px 199px 100px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px -90px 27px -60px rgba(0,0,0,1) inset, -1px 10px 100px 100px rgba(0,0,0,1);
+    -moz-box-shadow: -1px -90px 27px -74px rgba(0,0,0,1) inset, -1px 199px 199px 150px rgba(0,0,0,1);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    padding-top: 100px;
+}
+
+.register-btn {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.login-btn {
+    position: fixed;
+    left: 75px;
+    top: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.chat-btn {
+    position: fixed;
+    color: white;
+    border: none;
+    background-color: transparent;
+    left: 5px;
+    top: 30px;
+    font-size: 48px;
+}
+
+.chat-box {
+    background-color: white;
+    height: 400px;
+    position: fixed;
+    width: 400px;
+    top: 55px;
+    left: 60px;
+    border: 2px solid black;
+    overflow-y:scroll;
+
+}
+
+.chat-input-line {
+    position: fixed;
+    left: 62px;
+    top: 453px;
+}
+
+.chat-input {
+    display: inline-block;
+    width: 358px;
+    border: none;
+    border-top: 1px solid black;
+}
+
+.chat-post-btn {
+    height: 25px;
+    border: none;
+    border-top: 1px solid black;
+    display: inline-block;
+    align-self: flex-end;
+    background-color: white;
+
+}
+
+.chat-post-btn:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.chat {
+    height: 371px;
+    overflow-wrap: break-word;
+    text-align: left;
+    line-height: 17px;
+}
+
+.chat-content {
+    background-color: rgba(0,0,0,0.3);
+    
+}
+
+.author-name {
+    font-weight: 600;
+    line-height: 10px;
+    margin-bottom: 8px;
+}

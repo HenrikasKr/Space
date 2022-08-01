@@ -1,0 +1,18 @@
+.page-footer {
+    height: 100px;
+    position: relative;
+    box-shadow: 1px -60px 60px -30px rgba(0,0,0,1) inset;
+    -webkit-box-shadow: 1px -60px 60px -30px rgba(0,0,0,1) inset;
+    -moz-box-shadow: 1px -60px 60px -30px rgba(0,0,0,1) inset;
+
+}
+
+.admin-login {
+    position:absolute;
+    bottom: 5px;
+    right: 10px;
+    color: grey;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
